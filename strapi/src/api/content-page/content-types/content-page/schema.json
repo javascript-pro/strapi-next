@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_pages",
+  "info": {
+    "singularName": "content-page",
+    "pluralName": "content-pages",
+    "displayName": "Content Page",
+    "description": "Website content pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
