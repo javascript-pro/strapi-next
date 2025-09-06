@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_items",
+  "info": {
+    "singularName": "featured-item",
+    "pluralName": "featured-items",
+    "displayName": "FeaturedItem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "datetime"
+    }
+  }
+}
