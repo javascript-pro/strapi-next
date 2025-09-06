@@ -2,6 +2,7 @@
   "name": "strapi-next",
   "packageManager": "yarn@4.3.1",
   "scripts": {
-    "strapi": "cd ./strapi && yarn dev"
+    "strapi": "cd ./strapi && yarn dev",
+    "nextjs": "cd ./nextjs && yarn dev"
   }
 }
