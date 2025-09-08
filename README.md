@@ -11,3 +11,15 @@ Next.js App Router with a mix of server-side rendering for fast, SEO-friendly pa
 Testing at multiple levels: unit, integration, and optional end-to-end.
 
 Performance & Accessibility as first-class concerns, with Lighthouse integrated into the workflow.
+
+
+## ✅ Summary of relations
+From	To	Type	Name
+Course	Lesson	One-to-Many	lessons
+Lesson	Course	Many-to-One	course
+Course	Instructor	Many-to-One	instructor
+Instructor	Course	One-to-Many	courses
+Review	Course	Many-to-One	course
+Course	Review	One-to-Many	reviews
+
+
