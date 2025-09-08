@@ -48,6 +48,12 @@
       "relation": "oneToMany",
       "target": "api::review.review",
       "mappedBy": "course"
+    },
+    "enrollments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::enrollment.enrollment",
+      "mappedBy": "course"
     }
   }
 }
