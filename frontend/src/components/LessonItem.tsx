@@ -1,3 +1,4 @@
+// /Users/goldlabel/GitHub/strapi-next/frontend/src/components/LessonItem.tsx
 'use client';
 
 import { useState } from 'react';

@@ -1,3 +1,4 @@
+// /Users/goldlabel/GitHub/strapi-next/frontend/src/app/ClientProviders.tsx
 'use client';
 
 import { ReactNode } from 'react';

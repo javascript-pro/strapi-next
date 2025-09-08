@@ -1,3 +1,4 @@
+// /Users/goldlabel/GitHub/strapi-next/frontend/src/app/page.tsx
 import Link from 'next/link';
 import { Card, CardContent, Typography, Grid, CardActionArea } from '@mui/material';
 

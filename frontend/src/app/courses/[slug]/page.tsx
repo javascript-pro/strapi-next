@@ -1,3 +1,4 @@
+// /Users/goldlabel/GitHub/strapi-next/frontend/src/app/courses/[slug]/page.tsx
 import { notFound } from 'next/navigation';
 import { Typography, Container } from '@mui/material';
 import LessonList from '../../../components/LessonList';

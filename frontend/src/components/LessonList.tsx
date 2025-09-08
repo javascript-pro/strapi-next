@@ -1,3 +1,4 @@
+// /Users/goldlabel/GitHub/strapi-next/frontend/src/components/LessonList.tsx
 'use client';
 
 import { Grid } from '@mui/material';
