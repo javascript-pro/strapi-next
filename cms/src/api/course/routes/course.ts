@@ -24,8 +24,7 @@ export default {
       path: '/courses/:id/lessons',
       handler: 'course.lessons',
       config: {
-        auth: true,
-        policies: ['global::is-enrolled'],
+        auth: { required: true }
       },
     },
   ],
