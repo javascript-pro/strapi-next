@@ -38,7 +38,7 @@ https://nextjs.org/docs/app/guides/testing
 Strapi (v5)
 
 Lifecycle hooks (models) – reference. 
-https://docs.strapi.io/cms/backend-customization/models?utm_source=chatgpt.com
+https://docs.strapi.io/cms/backend-customization/models
 
 Lifecycle hooks – v4→v5 change (Document Service trigger model).
 https://docs.strapi.io/cms/migration/v4-to-v5/breaking-changes/lifecycle-hooks-document-service
