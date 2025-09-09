@@ -2,16 +2,15 @@
   "name": "strapi-next",
   "private": true,
   "version": "1.0.0",
-  "description": "Full-stack edtech demo with Strapi (cms) and Next.js (web)",
+  "description": "Full-stack edtech demo with Strapi and Next.js",
   "license": "MIT",
   "scripts": {
     "dev:cms": "pnpm --filter cms dev",
-    "dev:web": "pnpm --filter web dev",
-    "dev": "concurrently \"pnpm dev:cms\" \"pnpm dev:web\"",
-
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev": "concurrently \"pnpm dev:cms\" \"pnpm dev:frontend\"",
     "playwright:test": "pnpm exec playwright test",
     "playwright:ui": "pnpm exec playwright test --ui",
-
+    "test": "pnpm --filter frontend test:watch",
     "test:e2e": "pnpm exec playwright test",
     "test:e2e:ui": "pnpm exec playwright test --ui"
   },
